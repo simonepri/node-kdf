@@ -33,6 +33,12 @@ These packages aim at providing a consistent API for different [Key Derivation F
 
 See each package's readme for more info.
 
+## Packages
+
+| Name | Version | Description |
+|------|---------|-------------|
+| [@kdf/salt][gh:@kdf/salt] | [![@kdf/salt][badge:@kdf/salt]][npm:@kdf/salt] | 🎲 Crypto secure salt generator |
+
 ## Authors
 - **Simone Primarosa** - *Github* ([@simonepri][github:simonepri]) • *Twitter* ([@simoneprimarosa][twitter:simoneprimarosa])
 
@@ -49,6 +55,10 @@ This project is licensed under the MIT License - see the [license][license] file
 
 [npm:@kdf]: https://www.npmjs.com/settings/kdf/packages
 [wiki:kdf]: https://wikipedia.org/wiki/Key_derivation_function
+
+[gh:@kdf/salt]: https://github.com/simonepri/node-kdf/tree/master/packages/salt#readme
+[npm:@kdf/salt]: https://www.npmjs.com/package/@kdf/salt#readme
+[badge:@kdf/salt]: https://img.shields.io/npm/v/@kdf/salt.svg
 
 [github:simonepri]: https://github.com/simonepri
 [twitter:simoneprimarosa]: http://twitter.com/intent/user?screen_name=simoneprimarosa

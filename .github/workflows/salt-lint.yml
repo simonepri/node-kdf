@@ -1,0 +1,33 @@
+name: lint
+
+on:
+  push:
+    branches: '*'
+    paths:
+      - 'packages/salt/**'
+  pull_request:
+    branches: '*'
+    paths:
+      - 'packages/salt/**'
+
+defaults:
+  run:
+    working-directory: 'packages/salt'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: XO & Prettier
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10
+      - name: Install dev dependencies
+        run: |
+          npm install
+          npm list --dev --depth=0
+      - name: Run lint
+        run: npm run lint
