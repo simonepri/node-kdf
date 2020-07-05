@@ -25,8 +25,10 @@ then
     cd "$package" || exit 6
     echo "CWD: $PWD"
     "$np" "$version" --yolo --no-release-draft || exit 7
-    cd .. || exit 8
+    git add package.json || exit 8
+    git commit -m "Bump version for $package" || exit 9
+    cd .. || exit 10
   done
   echo "CWD: $PWD"
-  "$np" "$version" --yolo --no-publish || exit 9
+  "$np" "$version" --yolo --no-publish || exit 11
 fi
