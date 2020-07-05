@@ -11,42 +11,42 @@
     <img src="https://img.shields.io/npm/dt/@kdf/salt.svg" alt="Downloads on npm" />
   </a>
   <!-- License - MIT -->
-  <a href="https://github.com/simonepri/kdf-salt/tree/master/license">
-    <img src="https://img.shields.io/github/license/simonepri/kdf-salt.svg" alt="Project license" />
+  <a href="https://github.com/simonepri/node-kdf/blob/master/packages/salt/license">
+    <img src="https://img.shields.io/github/license/simonepri/node-kdf.svg" alt="Project license" />
   </a>
 
   <br/>
 
   <!-- Lint -->
-  <a href="https://github.com/simonepri/kdf-salt/actions?query=workflow:lint+branch:master">
-    <img src="https://github.com/simonepri/kdf-salt/workflows/lint/badge.svg?branch=master" alt="Lint status" />
+  <a href="https://github.com/simonepri/node-kdf/actions?query=workflow:salt-lint+branch:master">
+    <img src="https://github.com/simonepri/node-kdf/workflows/salt-lint/badge.svg?branch=master" alt="Lint status" />
   </a>
   <!-- Test - macOS -->
-  <a href="https://github.com/simonepri/kdf-salt/actions?query=workflow:test-macos+branch:master">
-    <img src="https://github.com/simonepri/kdf-salt/workflows/test-macos/badge.svg?branch=master" alt="Test macOS status" />
+  <a href="https://github.com/simonepri/node-kdf/actions?query=workflow:salt-test-macos+branch:master">
+    <img src="https://github.com/simonepri/node-kdf/workflows/salt-test-macos/badge.svg?branch=master" alt="Test macOS status" />
   </a>
   <!-- Test - Ubuntu -->
-  <a href="https://github.com/simonepri/kdf-salt/actions?query=workflow:test-ubuntu+branch:master">
-    <img src="https://github.com/simonepri/kdf-salt/workflows/test-ubuntu/badge.svg?branch=master" alt="Test Ubuntu status" />
+  <a href="https://github.com/simonepri/node-kdf/actions?query=workflow:salt-test-ubuntu+branch:master">
+    <img src="https://github.com/simonepri/node-kdf/workflows/salt-test-ubuntu/badge.svg?branch=master" alt="Test Ubuntu status" />
   </a>
   <!-- Test - Windows -->
-  <a href="https://github.com/simonepri/kdf-salt/actions?query=workflow:test-windows+branch:master">
-    <img src="https://github.com/simonepri/kdf-salt/workflows/test-windows/badge.svg?branch=master" alt="Test Windows status" />
+  <a href="https://github.com/simonepri/node-kdf/actions?query=workflow:salt-test-windows+branch:master">
+    <img src="https://github.com/simonepri/node-kdf/workflows/salt-test-windows/badge.svg?branch=master" alt="Test Windows status" />
   </a>
 
   <br/>
 
   <!-- Coverage - Codecov -->
-  <a href="https://codecov.io/gh/simonepri/kdf-salt">
-    <img src="https://img.shields.io/codecov/c/github/simonepri/kdf-salt/master.svg" alt="Codecov Coverage report" />
+  <a href="https://codecov.io/gh/simonepri/node-kdf/tree/master/packages/salt">
+    <img src="https://codecov.io/gh/simonepri/node-kdf/branch/master/graph/badge.svg?flag=salt" alt="Codecov Coverage report" />
   </a>
   <!-- DM - Snyk -->
-  <a href="https://snyk.io/test/github/simonepri/kdf-salt?targetFile=package.json">
-    <img src="https://snyk.io/test/github/simonepri/kdf-salt/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" />
+  <a href="https://snyk.io/test/github/simonepri/node-kdf?targetFile=packages/salt/package.json">
+    <img src="https://snyk.io/test/github/simonepri/node-kdf/badge.svg?targetFile=packages/salt/package.json" alt="Known Vulnerabilities" />
   </a>
   <!-- DM - David -->
-  <a href="https://david-dm.org/simonepri/kdf-salt">
-    <img src="https://david-dm.org/simonepri/kdf-salt/status.svg" alt="Dependency Status" />
+  <a href="https://david-dm.org/simonepri/node-kdf?path=packages/salt">
+    <img src="https://david-dm.org/simonepri/node-kdf/status.svg?path=packages/salt" alt="Dependency Status" />
   </a>
 
   <br/>
@@ -132,10 +132,10 @@ This project is licensed under the MIT License - see the [license][license] file
 
 
 <!-- Links -->
-[new issue]: https://github.com/simonepri/kdf-salt/issues/new
-[contributors]: https://github.com/simonepri/kdf-salt/contributors
+[new issue]: https://github.com/simonepri/node-kdf/issues/new
+[contributors]: https://github.com/simonepri/node-kdf/contributors
 
-[license]: https://github.com/simonepri/kdf-salt/tree/master/license
+[license]: https://github.com/simonepri/node-kdf/blob/master/packages/salt/license
 
 [github:simonepri]: https://github.com/simonepri
 [twitter:simoneprimarosa]: http://twitter.com/intent/user?screen_name=simoneprimarosa
