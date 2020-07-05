@@ -5,4 +5,10 @@
   "engines": {
     "node": ">=10"
   },
+  "scripts": {
+    "release": "bash scripts/release.sh"
+  },
+  "devDependencies": {
+    "np": "*"
+  }
 }
