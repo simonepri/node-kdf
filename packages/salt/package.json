@@ -1,6 +1,6 @@
 {
   "name": "@kdf/salt",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Crypto secure salt generator",
   "license": "MIT",
   "homepage": "https://github.com/simonepri/node-kdf/tree/master/packages/salt#readme",
