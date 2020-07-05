@@ -1,4 +1,4 @@
-name: lint
+name: salt-lint
 
 on:
   push:
